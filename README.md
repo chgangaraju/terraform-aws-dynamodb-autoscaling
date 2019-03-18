@@ -9,7 +9,7 @@ Terraform module to create dynamodb table with autoscaling enabled
     }
      
     module "test_table" {
-      source     = "chgangaraju/terraform-aws-dynamodb-autoscaling/aws"
+      source     = "chgangaraju/dynamodb-autoscaling/aws"
       version    = "1.0.1"
       key        = "id"
       table_name = "test"
@@ -33,7 +33,7 @@ Terraform module to create dynamodb table with autoscaling enabled
     }
      
     module "test_table" {
-      source         = "chgangaraju/terraform-aws-dynamodb-autoscaling/aws"
+      source         = "chgangaraju/dynamodb-autoscaling/aws"
       version        = "1.0.1"
       key            = "id"
       table_name     = "test"
