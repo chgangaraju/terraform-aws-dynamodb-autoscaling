@@ -8,8 +8,8 @@ variable "capacity" {
   default = {
     min_read  = 5
     max_read  = 20
-    min_write = 1
-    max_write = 5
+    min_write = 5
+    max_write = 20
   }
 }
 
@@ -26,4 +26,8 @@ variable "write_capacity" {
 
 variable "autoscaling_enabled" {
   default = true
+}
+
+variable "target_value" {
+  default = 70
 }
